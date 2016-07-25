@@ -1,0 +1,23 @@
+body {
+    font-family: Menlo, monospace;
+}
+input, textarea {
+    font: inherit;
+}
+th, td {
+    border-spacing: 0;
+    /* border: 1px solid black; */
+    padding: 0.6em;
+}
+*:focus {
+    outline: none;
+    border-color: red;
+}
+.db {
+    text-align: center;
+}
+
+
+thead.group-smallheader td {
+    font-size: 0.7em;
+}
